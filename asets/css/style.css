@@ -1,0 +1,115 @@
+@import url('resets.css');
+
+
+/* Home Page */
+
+header {
+    margin-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+} 
+
+.toggleBtn {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: #33bc6b;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 3.5%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+form * {
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+form input {
+    border: 1px solid #ffffff;
+}
+
+form button {
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: #33bc6b;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* Blog Post Page */
+.addPost {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: #33bc6b;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+nav {
+    display: column;
+    flex-direction: right
+}
+
+ul {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 3%;
+}
+
+/* Light Mode Styles */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.dark-mode main form {
+    border: 3px solid #f0f0f0;
+    border-radius: 2px;
+}
+
+.dark-mode main ul {
+    border: 3px solid #f0f0f0;
+    border-radius: 2px;
+}
